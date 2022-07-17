@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(12, 10, 133);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.hero{
+    width: 25%;
+    height: 400px;
+    background-image: url("https://assets.codepen.io/69263/internal/avatars/users/default.png?fit=crop&format=auto&height=256&version=2&width=256");
+    
+}
+
+.About-box{
+    display: flexwrap;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(110, 53, 163);
+    color: lightcoral;
+    width: 20%;
+    height: 200px;
+    border-radius: 30%;
+    
+}
+
+.Projects-box{
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    background-color: firebrick;
+    color: lime;
+    width: 20%;
+    height: 200px;
+    border-radius: 30%;
+    
+    
+}
+
+.Contact-box{
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: gold;
+    width: 20%;
+    height: 200px;
+    border-radius: 30%;
+}
+
+.footer-box{
+    display: flexbox;
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+
+nav>a{
+    color: white !important;
+}
